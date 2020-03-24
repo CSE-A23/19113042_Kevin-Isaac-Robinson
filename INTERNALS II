@@ -1,0 +1,15 @@
+1)    The following are the operators in C++ that cannot be overloaded:
+            Dot operator/Member access operator ( . )
+            Scope resolution operator ( :: )
+            Ternary/Conditional operator ( ?: )
+            Pointer to member operator ( :* )
+      
+      
+2)    c) Compiler Error in line ” Derived *dp = new Base;
+
+
+3)    A problem rises in multi=path inheritance when a derived class refers to a parent class with two or more of its own parent classes with 
+      that define properties and methods with the same name.
+      
+      This can be resolved as follows:
+          - The order in which the superclasses or parent classes are given defines which method will be accessible
